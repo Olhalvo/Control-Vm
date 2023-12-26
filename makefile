@@ -11,7 +11,7 @@ build:
 	@make exec
 	@make clean_obj
 	@mkdir build
-	@mv $(EXECUTABLE).exe ./build
+	@mv $(EXECUTABLE) ./build
 
 run:
 	@make obj
